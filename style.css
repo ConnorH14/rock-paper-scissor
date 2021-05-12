@@ -1,0 +1,60 @@
+:root{
+  --theme-bg: #d6cece;
+  --theme-main: #f7f5f5;
+  --theme-txt: #080213;
+  --theme-hover: #b38b8b;
+}
+
+.head-style{
+  height: 175px;
+  text-shadow: 1px 1px white;
+}
+
+.head-style h1{
+  font-size: 5em;
+}
+
+.result-display{
+  background-color: black;
+  color: #16b846;
+  border: 5px solid white;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.theme-bg{
+  background-color: var(--theme-bg);
+}
+.theme-main{
+  background-color: var(--theme-main);
+}
+.theme-txt{
+  color: var(--theme-txt);
+  font-family: 'Rubik', sans-serif;
+}
+
+.hover-color:hover{
+  background-color: var(--theme-bg);
+  border: 10px solid #f7f4f4;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.icon-size{
+  font-size: 5em;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
